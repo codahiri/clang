@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int main() {
    
    // VARIABLES =                Allocated space in memory to store a value.
