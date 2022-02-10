@@ -17,3 +17,10 @@ C supports the following basic data types:
 - **float**: floating point, a number with a fractional part.
 - **double**: double-precision floating point value.
 - **char**: single character.
+
+| Type     | Description                             | Values                          |
+| -------- | --------------------------------------- | ------------------------------- |
+| `int`    | a whole number                          | -2,147,483,648 to 2,147,483,647 |
+| `float`  | a number with possible decimals         | 6 decimal places                |
+| `double` | a number with possible decimals         | 15 decimal places               |
+| `char`   | stores one character (letter or number) | a single character              |
