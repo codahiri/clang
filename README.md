@@ -24,3 +24,9 @@ C supports the following basic data types:
 | `float`  | a number with possible decimals         | 6 decimal places                |
 | `double` | a number with possible decimals         | 15 decimal places               |
 | `char`   | stores one character (letter or number) | a single character              |
+
+| symbol   | type            |
+| -------- | --------------- |
+| %d or %i | int             |
+| %f       | double or float |
+| %c       | char            |
