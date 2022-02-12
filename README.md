@@ -7,6 +7,8 @@ The versatility of C is by design. It is a low-level language that relates close
 
 > Understanding how computer memory works is an important aspect of the C programming language.
 
+## Cheet Sheat > [cheet](./topics/)
+
 ---
 
 ## Data Types
