@@ -137,6 +137,7 @@ struct Person{
 
 // declaring Person type parameter
 void myFunc(struct Person person1);
+
 ```
 
 ## Passing Structure Pointers To Functions
