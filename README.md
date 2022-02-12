@@ -30,3 +30,22 @@ C supports the following basic data types:
 | %d or %i | int             |
 | %f       | double or float |
 | %c       | char            |
+
+| Priority | Symbol                   |
+| -------- | ------------------------ |
+| 1        | ++                       |
+| 1        | --                       |
+| 1        | ()                       |
+| 2        | !                        |
+| 2        | (typecast)               |
+| 3        | \*                       |
+| 3        | /                        |
+| 3        | %                        |
+| 4        | +                        |
+| 4        | -                        |
+| 5        | <, <=                    |
+| 5        | >, >=                    |
+| 6        | ==, !=                   |
+| 7        | &&                       |
+| 8        | or                       |
+| 9        | all assignment operators |
