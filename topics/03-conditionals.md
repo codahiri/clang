@@ -1,6 +1,6 @@
 ## Types of Conditionals
 
-A conditional in C can be written using `if, else-if, else, ternary operators, andswitch` statements.
+A conditional in C can be written using `if, else-if, else, ternary operators, and switch` statements.
 
 ## if Statements
 
