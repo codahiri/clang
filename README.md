@@ -32,6 +32,7 @@ C supports the following basic data types:
 | %d or %i | int             |
 | %f       | double or float |
 | %c       | char            |
+| %s       | array char      |
 
 | Priority | Symbol                   |
 | -------- | ------------------------ |
