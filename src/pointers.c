@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
 
@@ -44,4 +45,44 @@ int main(){
   int* ptr_son = &son;
   int son_ptr = *ptr_son;
   printf("%i\n", son_ptr);
+
+  int son2 = 5;
+  int* ptr_son2 = &son2;
+  printf("%i\n", *ptr_son2);
+  *ptr_son2 = 200;
+  printf("%i\n", son2);
+
+  // Pointer Arithmetic
+  int* p_a;
+  printf("%p\n", p_a);
+  printf("%p\n", p_a+2);
+
+  double* ptr5;
+  printf("%p\n", ptr5);
+  // Code for Checkpoint 1 goes here:
+  ptr5 += 5;
+  printf("%p\n", ptr5);
+  // Code for Checkpoint 2 goes here:  
+  ptr5 -= 4;
+  printf("%p\n", ptr5);
+
+  // Pointers & Arrays
+  int arr6[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  char s[] = "Farmer Jack realized that big yellow quilts were expensive!!";
+
+  // Code for Checkpoint 1 goes here.
+  int* ptr6 = &arr6[9];
+  // Code for Checkpoint 2 goes here.
+  for(int i = 0; i<10; i++){
+    printf("%i\n", *ptr6);
+    ptr6--;
+  }
+  // Code for Checkpoint 3 goes here.
+  char* ptr7 = &s[0];
+  // Code for Checkpoint 4 goes here.
+  for(int j = 0; j < strlen(s); j++){
+    *ptr7 = '#';
+    ptr7++;
+  }
+  printf("%s\n", s);  
 }
